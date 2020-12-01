@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!-- Icon -->
+    <link rel="icon" href="icon/code.png">
+    <!-- Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>CODETECH</title>
+    <!-- AOS.JS -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="js/script.js"></script>
+    <!-- Navigation Script -->
+    <script defer src="js/navbar.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Tailwind Library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+</head>
+<body class="text-gray-800 antialiased">
+
+  <!-- Scrollbar -->
+  <div class="scrollbar" id="style-1">
+    <div class="force-overflow"></div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="flex flex-wrap">
+    <div class="w-full">
+      <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-black">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+          <div class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
+            <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="main.html">
+              codeTech
+            </a>
+            <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div class="lg:flex lg:flex-grow items-center hidden" id="example-collapse-navbar">
+            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+              <li class="nav-item">
+                <a class="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75" href="https://medium.com/for-self-taught-developers/the-5-best-code-editors-for-web-development-deaaa0b68fd5" target="_blank" rel="noopener noreferrer">
+                  Text editor
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75" href="https://developers.google.com/web/tools/chrome-devtools" target="_blank" rel="noopener noreferrer">
+                  Dev tools
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- End of Navigation -->
+
+  <!-- Main area -->
+  <main>
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh;">
+      <!-- Background Image -->
+      <div
+        class="absolute top-0 w-full h-full bg-center bg-cover"
+        style="background-image: url(https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?cs=srgb&dl=pexels-xxss-is-back-777001.jpg&fm=jpg)">
+        <!-- Overlay -->
+        <span id="blackOverlay" class="w-full h-full absolute opacity-50 bg-black"></span>
+      </div>
+      <!-- Text Over Main Background -->
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-white font-bold text-5xl"
+              data-aos="fade-up">
+                Learn web development today.
+              </h1>
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right" data-aos-delay="1000">
+                Web development gives you the opportunity to express yourself creatively on the internet. If you have an idea you would like to try as you discover your web dev skills, try it out. Web dev is a fun, creative experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Making Polygon Shape in Background -->
+      <div
+        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+    </div>
+    <!-- End of Main area -->
+
+    <!-- About Section -->
+    <section class="relative py-20 bg-gray-400 text-white">
+      <!-- Making Polygon Shape in Background -->
+
+      <!-- Section Container -->
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right" data-aos-delay="1000"> 
+            <!-- Image -->
+            <img
+              alt="..."
+              class="max-w-full rounded-lg shadow-lg"
+              src="https://images.pexels.com/photos/3183165/pexels-photo-3183165.jpeg?cs=srgb&dl=pexels-fauxels-3183165.jpg&fm=jpg"
+            />
+          </div>
+          <!-- Text Box Container-->
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="zoom-in">
+            <div class="md:pr-12">
+              <div class="text-gray-300 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-600">
+                <!-- Icon -->
+                <i class="fas fa-code text-xl"></i>
+              </div>
+              <!-- Text Box -->
+              <h3 class="text-3xl font-bold text-black">Creativity is thinking up new things. Innovation is doing new things!</h3>
+              <p class="mt-4 text-lg leading-relaxed text-black">
+                We love creative and design with passion of building epic web experiences to blow people's minds.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- Contact Section -->
+    <section class="pb-20 relative block bg-gray-900">
+      <!-- Section Container -->
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <!-- Text Box -->
+        <div class="flex flex-wrap text-center justify-center">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-bold text-white">Build something with purpose.</h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
+              We love what we do and we do what our clients love & work with great clients all over the world to create thoughtful and purposeful websites.
+            </p>
+          </div>
+        </div>
+        <!-- Flex Row Container -->
+        <div class="flex flex-wrap mt-12 justify-center">
+          <!-- Item -->
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="600">
+            <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+              <!-- Icon -->
+              <i class="fas fa-laptop-code text-xl"></i>
+            </div>
+            <!-- Text Box -->
+            <h5 class="text-xl mt-5 font-bold text-white">
+              Understand code.
+            </h5>
+            <p class="mt-2 mb-4 text-white">
+              Everybody should learn how to program a computer because it teaches you how to think.
+            </p>
+          </div>
+          <!-- Item -->
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="400">
+            <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+              <!-- Icon -->
+              <i class="fas fa-microchip text-xl"></i>
+            </div>
+            <!-- Text Box -->
+            <h5 class="text-xl mt-5 font-bold text-white">
+              Move with technology.
+            </h5>
+            <p class="mt-2 mb-4 text-white">
+              What new technology does is create new opportunities to do a job that customers want to be done.
+            </p>
+          </div>
+          <!-- Item -->
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="200">
+            <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+              <!-- Icon -->
+              <i class="fas fa-lightbulb text-xl"></i>
+            </div>
+            <!-- Text Box -->
+            <h5 class="text-xl mt-5 font-semibold text-white">Creative problem solver.</h5>
+            <p class="mt-2 mb-4 text-white">
+              Every problem has a solution. You just have to be creative enough to find it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="relative bg-black pt-8 pb-6">
+    <!-- Section Container -->
+    <div class="container mx-auto px-4">
+      <!-- Text Box Container -->
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-bold text-white">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-white">
+            Find us on any of these platforms, and we will respond to you soon.
+          </h5>
+          <!-- Social Media Buttons -->
+          <div class="mt-6">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin bg-white text-blue-400 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="https://www.github.com" target="_blank"><i class="fab fa-github bg-white text-gray-900 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="https://www.behance.net" target="_blank"><i class="fab fa-behance bg-white text-gray-900 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+          </div>
+        </div>
+      <!-- List Container -->
+      <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            <!-- List 1 -->
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+              <span class="block uppercase text-white text-sm font-bold mb-2">Useful Links</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-white font-semibold block pb-2 text-sm"
+                     href="https://codeburst.io/8-websites-you-should-visit-to-learn-web-development-620e93b3f1c5" target="_blank" rel="noopener noreferrer">Click to find out</a>
+                </li>
+              </ul>
+            </div>
+            <!-- List 2 -->
+            <div class="w-full lg:w-4/12 px-4">
+              <span class="block uppercase text-white text-sm font-bold mb-2">Other Resources</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-white font-semibold block pb-2 text-sm"
+                     href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer">MDN web docs</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-white font-semibold block pb-2 text-sm"
+                     href="https://www.pdfdrive.com/html-css-books.html" target="_blank" rel="noopener noreferrer">Pdfdrive</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Line Break -->
+      <hr class="my-6 border-gray-400" />
+      <!-- Footer Text -->
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-white font-bold py-1">
+            © 2020 CODETECH
+            <a
+              href=""
+              class="text-gray-600 hover:text-gray-900"
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer Section -->
+</body>
+</html>
